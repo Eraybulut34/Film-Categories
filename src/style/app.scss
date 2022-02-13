@@ -1,11 +1,74 @@
-.carousel{
+.home {
+    background-color: rgb(10, 10, 58);
+}
+.navbar {
+    background-color: rgb(10, 10, 58);
+    height: 4rem;
+}
+.carousel {
     width: 100%;
-    max-height: 600px;
+    max-height: 34rem;
     position: relative;
     overflow: hidden;
-    }
-.container{
-    width: 1200px;
+}
+.container {
     height: 100%;
     position: relative;
+    overflow: hidden;
+    padding: 0px 10rem;
+}
+.categories {
+    margin: 3rem 0px;
+    max-height: 28rem;
+}
+.owl-nav {
+    display: none;
+}
+.film {
+    padding: 3rem;
+    background-color: rgb(240, 236, 184);
+    min-height: 26rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.film-image {
+    display: flex;
+    justify-content: center;
+}
+
+.film-card {
+    display: block;
+    margin-right: 3rem;
+    @media screen and (max-width: 1200px) {
+        width: 100%;
+        padding: 4rem;
     }
+    text-align: center;
+    font-size: 2em;
+    color: blanchedalmond;
+}
+.film-title {
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+}
+.film-card-image {
+    width: 20rem;
+    height: 22rem;
+    display: block;
+    position: relative;
+    border-radius: 0.5rem;
+}
+.info-inner {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    color: black;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    height: 10rem;
+}
